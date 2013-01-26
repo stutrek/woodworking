@@ -38,7 +38,7 @@ if( $uriArray[0] === 'product' and is_numeric($uriArray[1]) ) {
 	if ($product) {
 		echo '<title>'.$product->title.'</title>';
 	} else {
-		echo '<title>Stuart Aaron Ceramics by Stu Kabakoff</title>';
+		echo '<title>Stu Kabakoff\'s Woodwork</title>';
 	}
 	?>
 	<base href="http://<?php echo $_SERVER["HTTP_HOST"].$basedir; ?>" />
@@ -52,7 +52,7 @@ if( $uriArray[0] === 'product' and is_numeric($uriArray[1]) ) {
 <body>
 	<div id="header">
 		<div id="header_content">
-			<img src="./images/stuartaaron.png" height="68" width="420" alt="Stuart Aaron Ceramics by Stuart Aaron Kabakoff">
+			<h1>Stu Kabakoff's Woodwork</h1>
 			<div id="links">
 				<a href="#!about">About</a>
 			</div>
@@ -99,8 +99,8 @@ if( $uriArray[0] === 'product' and is_numeric($uriArray[1]) ) {
 	}
 	?>
 	<div id="static_about" class="static">
-		<p>Stuart Aaron Kabakoff is a studio potter at <a href="http://www.lamanopottery.com/" target="_blank">La Mano Pottery</a> in Chelsea, NYC. He throws and handbuilds functional pottery.</p>
-		<p>In his toolkit he has an Egg-Bot spherical plotter that is used for engraving and sgraffito. <a href="http://www.youtube.com/watch?v=_f8DgePmaSg">See a video.</a></p>
+		<p>Stu Kabakoff is a woodworker, <a href="http://stuartaaron.com">potter</a>, and a <a href="https://github.com/sakabako" target="_blank">programmer</a>.</p>
+		<p>He is a studio potter at <a href="http://www.lamanopottery.com/" target="_blank">La Mano Pottery</a> in Chelsea, NYC and has a Bachelor's of Industrial Design from Syracuse University. He is currenly a User Interface Engineer at MLB.com.</p>
 	</div>
 	<div id="static_hide" class="static">
 		<a href="#">Hide</a>

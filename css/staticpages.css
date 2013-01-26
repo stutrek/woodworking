@@ -1,11 +1,11 @@
 .static {
 	display: none;
-	background-color: white;
+	/*background-color: white;*/
 	padding: 1em;
 }
 .static p {
-	margin: 0;
-	text-indent: 1.5em;
+	/*margin: 0;*/
+	/*text-indent: 1.5em;*/
 	line-height: 1.5;
 }
 

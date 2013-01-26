@@ -1,5 +1,5 @@
 #header {
-	border-bottom: 0.2em solid #888;
+	border-bottom: 0.2em solid #ddd;
 }
 #header_content {
 	position: relative;
@@ -11,5 +11,5 @@
 	text-transform: lowercase;
 }
 #header #links a {
-	color: white;
+	color: #999;
 }
